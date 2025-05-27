@@ -8,7 +8,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=Kosei0128&theme=onedark&column=9
 )](https://github.com/ryo-ma/github-profile-trophy)
 <br><br>
-<img src="https://komarev.com/ghpvc/?username=fa0311&style=flat-square">
+<img src="https://komarev.com/ghpvc/?username=Kosei0128&style=flat-square">
 
 <h2>Links 🔗</h2>
 <a href="https://github.com/stars/fa0311/lists/contribute-100">⭐ Contribute List</a><br>
