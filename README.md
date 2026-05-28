@@ -1,43 +1,24 @@
-# Kosvel
+<div align="left">
 
-Web applications, landing pages, and small automation tools.
+![Kosvel uid](https://img.shields.io/badge/Kosvel-portfolio-111111?style=flat-square&labelColor=111111&color=43d17a)
+![Status](https://img.shields.io/badge/status-building-111111?style=flat-square&labelColor=111111&color=7c5cff)
 
-I build practical web products with a focus on clear UI, useful workflows, and fast iteration.  
-Mainly working with Next.js, TypeScript, Python, and AI/API integrations.
+Web apps, landing pages, automation tools.
 
-## About
+<br />
 
-- Web application development
-- Landing page and client website production
-- Workflow automation and prototype development
-- Personal product development from idea to deployment
+<img src="https://raw.githubusercontent.com/Kosei0128/Kosei0128/main/assets/kosvel-card.svg" alt="Kosvel profile card" width="100%" />
 
-## Featured Projects
+<br />
 
-### [LP Howmatch](https://github.com/Kosei0128/lp-howmatch)
-A web production estimate simulator that helps users quickly understand rough pricing for landing pages and websites.
+## Works
 
-- Next.js / TypeScript
-- Estimate logic and UI design
-- Deployed on Vercel
-
-### [Rapper Tool](https://github.com/Kosei0128/rapper-tool)
-A Japanese rap lyric writing tool with rhyme suggestions, AI-assisted generation, and lyric analysis.
-
-- Next.js / TypeScript
-- DeepSeek API integration
-- Rhyme search, lyric editing, and mobile-first UI
-
-### Kosvel Studio
-My personal portfolio site for organizing projects, client work, and development notes.
-
-- Next.js / TypeScript
-- Portfolio and project archive
-- Currently being refined
-
-### Client Work
-I also create websites for individuals and small businesses.  
-For client projects, source code is kept private, but project summaries and public pages may be shared when appropriate.
+| Project | Description | Stack |
+| --- | --- | --- |
+| [LP Howmatch](https://github.com/Kosei0128/lp-howmatch) | Web production estimate simulator for landing pages and small websites. | Next.js / TypeScript |
+| [Rapper Tool](https://github.com/Kosei0128/rapper-tool) | Japanese rap lyric writing studio with rhyme search and AI-assisted generation. | Next.js / TypeScript / AI API |
+| Kosvel Studio | Personal portfolio site for projects, client work, and development notes. | Next.js / TypeScript |
+| Client Work | Websites created for individuals and small businesses. Source code is kept private for client projects. | Web production |
 
 ## Tech Stack
 
@@ -48,6 +29,9 @@ Tools: GitHub, Vercel, Supabase, AI APIs
 Focus: Web apps, LPs, automation, prototypes
 ```
 
-## Contact
+## About
 
-For project inquiries or development-related messages, please contact me through GitHub or my public links.
+I build practical web products with a focus on clear UI, useful workflows, and fast iteration.  
+Currently refining my portfolio as Kosvel.
+
+</div>
