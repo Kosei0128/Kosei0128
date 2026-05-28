@@ -1,53 +1,78 @@
 <svg width="1000" height="420" viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="1000" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050505"/>
-      <stop offset="0.5" stop-color="#0b0b0d"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#030304"/>
+      <stop offset="0.48" stop-color="#050506"/>
       <stop offset="1" stop-color="#020203"/>
     </linearGradient>
-    <linearGradient id="triA" x1="460" y1="315" x2="675" y2="45" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#e03b8b"/>
-      <stop offset="0.52" stop-color="#f6c15d"/>
-      <stop offset="1" stop-color="#41e1b6"/>
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2cf5c6"/>
+      <stop offset="0.22" stop-color="#37a6ff"/>
+      <stop offset="0.48" stop-color="#9b5cff"/>
+      <stop offset="0.72" stop-color="#ff4f9a"/>
+      <stop offset="1" stop-color="#f6d76b"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="triB" x1="675" y1="45" x2="860" y2="315" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#41e1b6"/>
-      <stop offset="0.48" stop-color="#2c8af2"/>
-      <stop offset="1" stop-color="#1b3fae"/>
+    <linearGradient id="edgeA" x1="560" y1="320" x2="690" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3d8d" stop-opacity="0.26"/>
+      <stop offset="0.5" stop-color="#f4c65e" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#35f0bf" stop-opacity="0.36"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 680 210;360 680 210" dur="16s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="glow" x="360" y="-40" width="600" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.75 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
+    <linearGradient id="edgeB" x1="690" y1="80" x2="840" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#29f0c0" stop-opacity="0.34"/>
+      <stop offset="0.45" stop-color="#2787ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#c34cff" stop-opacity="0.25"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="360 680 210;0 680 210" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edgeC" x1="560" y1="320" x2="840" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff4c82" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#5b51ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#d45cff" stop-opacity="0.24"/>
+    </linearGradient>
+    <filter id="cardShadow" x="0" y="0" width="1000" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.55"/>
     </filter>
-    <filter id="soft" x="0" y="0" width="1000" height="420" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.45"/>
+    <filter id="triangleBlur" x="440" y="-20" width="500" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
+    <filter id="triangleSoft" x="450" y="-10" width="480" height="480" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <radialGradient id="mist" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(705 214) rotate(90) scale(210 315)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0.48" stop-color="#8a5cff" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-
-  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#card)" stroke="#2f333a" stroke-width="3" filter="url(#soft)"/>
-  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#card)"/>
-  <path d="M63 58H217" stroke="#92f6d8" stroke-opacity="0.35"/>
-  <path d="M63 361H358" stroke="#ffffff" stroke-opacity="0.08"/>
-
-  <text x="64" y="102" fill="#e4d46e" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">Kosvel</text>
-  <text x="67" y="142" fill="#a9abb3" font-family="Segoe UI, Arial, sans-serif" font-size="22">Web Developer / Indie Developer</text>
-
-  <text x="67" y="204" fill="#d5d7dc" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Projects</text>
-  <text x="67" y="236" fill="#8f929b" font-family="Segoe UI, Arial, sans-serif" font-size="19">Web apps, landing pages, automation tools</text>
-
-  <text x="67" y="284" fill="#d5d7dc" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Focus</text>
-  <text x="67" y="316" fill="#8f929b" font-family="Segoe UI, Arial, sans-serif" font-size="19">Next.js / TypeScript / Python / AI APIs</text>
-
-  <rect x="68" y="342" width="196" height="36" rx="7" fill="#111318" stroke="#2a2f38"/>
-  <text x="86" y="365" fill="#b9bdc7" font-family="Segoe UI, Arial, sans-serif" font-size="15">Building in public</text>
-  <path d="M224 360 L241 350 L241 370 Z" fill="#63e6be"/>
-
-  <g filter="url(#glow)">
-    <path d="M660 62 L488 324" stroke="url(#triA)" stroke-width="24" stroke-linecap="round"/>
-    <path d="M660 62 L842 324" stroke="url(#triB)" stroke-width="24" stroke-linecap="round"/>
-    <path d="M488 324 H842" stroke="#182ecf" stroke-width="24" stroke-linecap="round"/>
+  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#bg)" stroke="#2c3037" stroke-width="3" filter="url(#cardShadow)"/>
+  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#bg)"/>
+  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#mist)" opacity="0.82"/>
+  <path d="M50 365H390" stroke="#ffffff" stroke-opacity="0.055"/>
+  <g opacity="0.95">
+    <text x="64" y="102" fill="url(#nameGradient)" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="750">Kosvel</text>
+    <text x="67" y="142" fill="#9ca0ab" font-family="Segoe UI, Arial, sans-serif" font-size="22">Web Developer / Indie Developer</text>
   </g>
-  <path d="M660 103 L536 292 H792 L660 103Z" fill="#050505" fill-opacity="0.82"/>
-  <path d="M660 103 L536 292 H792 L660 103Z" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <text x="67" y="204" fill="#d3d5dc" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" opacity="0.82">My Work</text>
+  <text x="67" y="236" fill="#8d919d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Web apps, landing pages, automation tools</text>
+  <text x="67" y="284" fill="#d3d5dc" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" opacity="0.82">Focus</text>
+  <text x="67" y="316" fill="#8d919d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Next.js / TypeScript / Python / AI APIs</text>
+  <rect x="68" y="342" width="210" height="36" rx="7" fill="#0d0f13" stroke="#272b34" opacity="0.92"/>
+  <text x="86" y="365" fill="#aeb3bf" font-family="Segoe UI, Arial, sans-serif" font-size="15">Currently building</text>
+  <path d="M237 360 L255 350 L255 370 Z" fill="#54e8bd" opacity="0.95"/>
+  <g opacity="0.8" filter="url(#triangleBlur)">
+    <path d="M682 76 L548 318" stroke="url(#edgeA)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M682 76 L842 318" stroke="url(#edgeB)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M548 318 H842" stroke="url(#edgeC)" stroke-width="30" stroke-linecap="round"/>
+    <animate attributeName="opacity" values="0.48;0.82;0.52;0.75;0.48" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.62" filter="url(#triangleSoft)">
+    <path d="M682 82 L557 309" stroke="url(#edgeA)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M682 82 L832 309" stroke="url(#edgeB)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M557 309 H832" stroke="url(#edgeC)" stroke-width="12" stroke-linecap="round"/>
+    <animate attributeName="opacity" values="0.38;0.66;0.42;0.6;0.38" dur="7s" repeatCount="indefinite"/>
+  </g>
+  <path d="M682 116 L596 282 H784 L682 116Z" fill="#030304" fill-opacity="0.88"/>
+  <path d="M682 116 L596 282 H784 L682 116Z" stroke="#ffffff" stroke-opacity="0.025" stroke-width="1"/>
+  <rect x="12" y="12" width="976" height="396" rx="32" stroke="#ffffff" stroke-opacity="0.045"/>
 </svg>
