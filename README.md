@@ -26,12 +26,12 @@
 
 ## Tech Stack
 
-`	ext
+```text
 Frontend: Next.js, React, TypeScript, Tailwind CSS
 Backend: Python, Node.js, API integrations
 Tools: GitHub, Vercel, Supabase, AI APIs
 Focus: Web apps, LPs, automation, prototypes
-`
+```
 
 ## About
 
