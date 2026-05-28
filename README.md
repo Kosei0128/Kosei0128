@@ -10,7 +10,7 @@
 </p>
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=700&size=26&duration=3300&pause=1100&color=67E8F9&width=760&height=48&lines=%E5%B0%8F%E3%81%95%E3%81%AA%E4%BE%BF%E5%88%A9%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%B8%E5%B1%8A%E3%81%91%E3%82%8B%E3%80%82" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=700&size=26&duration=2800&pause=900&color=67E8F9&width=760&height=48&lines=Hi%20there%2C%20I'm%20Kosvel%F0%9F%91%8B;%E5%B0%8F%E3%81%95%E3%81%AA%E4%BE%BF%E5%88%A9%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%AB%E5%B1%8A%E3%81%91%E3%82%8B%E3%80%82;Next.js%20%2B%20FastAPI%20%3D%20%F0%9F%92%9B" alt="Typing SVG" />
 </p>
 
 <img src="https://raw.githubusercontent.com/Kosvel-dev/Kosvel-dev/main/assets/kosvel-card.svg" alt="Kosvel profile card" width="100%" />
@@ -28,7 +28,7 @@
 
 ```text
 Frontend: Next.js, React, TypeScript, Tailwind CSS
-Backend: Python, Node.js, API integrations
+Backend: FastAPI, Python, Node.js, API integrations
 Tools: GitHub, Vercel, Supabase, AI APIs
 Focus: Web apps, LPs, automation, prototypes
 ```
