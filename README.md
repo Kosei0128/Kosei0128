@@ -1,21 +1,53 @@
-## Hi there 👋
+# Kosvel
 
-<p align="left"> 
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kosei0128&layout=compact&show_icons=true&theme=radical" />
-  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=Kosei0128&theme=radical&show_icons=ture" />
-</p>
+Web applications, landing pages, and small automation tools.
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Kosei0128&theme=onedark&column=9
-)](https://github.com/ryo-ma/github-profile-trophy)
-<br><br>
-<img src="https://komarev.com/ghpvc/?username=Kosei0128&style=flat-square">
+I build practical web products with a focus on clear UI, useful workflows, and fast iteration.  
+Mainly working with Next.js, TypeScript, Python, and AI/API integrations.
 
-<h2>Links 🔗</h2>
-<a href="https://github.com/stars/Kosei0128/lists/contribute-100">⭐ Contribute List</a><br>
-<a href="https://x.com/Plane_sns">🩵 X</a><br>
-<a href="https://github.com/sponsors/Kosei0128">🍺 GitHub Sponsors</a><br>
+## About
 
-<h2>Message 💬</h2>
-Do you want to send me a message?
-Send it to the issue or discussion in the repository, or send a message to <a href="https://github.com/fa0311/fa0311/discussions/new?category=general">fa0311/dissucation</a>.<br>
-Please do not use closed social services (e.g. Twitter DM) to ask me technical questions.
+- Web application development
+- Landing page and client website production
+- Workflow automation and prototype development
+- Personal product development from idea to deployment
+
+## Featured Projects
+
+### [LP Howmatch](https://github.com/Kosei0128/lp-howmatch)
+A web production estimate simulator that helps users quickly understand rough pricing for landing pages and websites.
+
+- Next.js / TypeScript
+- Estimate logic and UI design
+- Deployed on Vercel
+
+### [Rapper Tool](https://github.com/Kosei0128/rapper-tool)
+A Japanese rap lyric writing tool with rhyme suggestions, AI-assisted generation, and lyric analysis.
+
+- Next.js / TypeScript
+- DeepSeek API integration
+- Rhyme search, lyric editing, and mobile-first UI
+
+### Kosvel Studio
+My personal portfolio site for organizing projects, client work, and development notes.
+
+- Next.js / TypeScript
+- Portfolio and project archive
+- Currently being refined
+
+### Client Work
+I also create websites for individuals and small businesses.  
+For client projects, source code is kept private, but project summaries and public pages may be shared when appropriate.
+
+## Tech Stack
+
+```text
+Frontend: Next.js, React, TypeScript, Tailwind CSS
+Backend: Python, Node.js, API integrations
+Tools: GitHub, Vercel, Supabase, AI APIs
+Focus: Web apps, LPs, automation, prototypes
+```
+
+## Contact
+
+For project inquiries or development-related messages, please contact me through GitHub or my public links.
