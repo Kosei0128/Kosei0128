@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Kosvel-dev/Kosvel-dev/main/assets/kosvel-card.svg" alt="Kosvel profile card" width="100%" />
 
-<br/>
+<br/><br/><br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=700&size=26&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=720&height=48&lines=Hi%20there%2C%20I'm%20Kosvel%F0%9F%91%8B;%E5%B0%8F%E3%81%95%E3%81%AA%E4%BE%BF%E5%88%A9%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%AB%E5%B1%8A%E3%81%91%E3%82%8B%E3%80%82;Ideas%20%2B%20Code%20%3D%20%E2%9D%A4%EF%B8%8F" alt="Typing SVG" />
 
@@ -12,7 +12,7 @@
 <a href="https://github.com/Kosvel-dev?tab=repositories"><img src="https://img.shields.io/github/stars/Kosvel-dev?style=for-the-badge&logo=github&color=0D1117&labelColor=161B22" alt="GitHub stars" /></a>
 <img src="https://komarev.com/ghpvc/?username=Kosvel-dev&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views" />
 
-<br/><br/>
+<br/><br/><br/>
 
 <img src="https://img.shields.io/badge/Kosvel-portfolio-111111?style=flat-square&labelColor=111111&color=43d17a" alt="Kosvel portfolio" />
 <img src="https://img.shields.io/badge/status-building-111111?style=flat-square&labelColor=111111&color=7c5cff" alt="status building" />
