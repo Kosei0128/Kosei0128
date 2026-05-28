@@ -47,17 +47,21 @@ Tools: GitHub, Vercel, Supabase, AI APIs
 Focus: Web apps, LPs, automation, prototypes
 ```
 
-## GitHub Stats
+---
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Kosvel-dev&theme=tokyonight&hide_border=true&border_radius=12&background=0D1117&stroke=30363D&ring=67E8F9&fire=FF6B6B&currStreakLabel=67E8F9" height="165" alt="GitHub streak" />
+## 📊 GitHub Stats
 
-<br/><br/>
+<img src="https://streak-stats.demolab.com?user=Kosvel-dev&theme=tokyonight&hide_border=true&border_radius=12&background=0D1117&stroke=30363D&ring=67E8F9&fire=FF6B6B&currStreakLabel=67E8F9" width="58%" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kosvel-dev&theme=tokyo-night&bg_color=0D1117&color=67E8F9&line=67E8F9&point=FF6B6B&area=true&hide_border=true" width="100%" alt="Contribution graph" />
+<br/><br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kosvel-dev&theme=tokyo-night&bg_color=0D1117&color=67E8F9&line=67E8F9&point=FF6B6B&area=true&hide_border=true&height=360&custom_title=Kosvel's%20Contribution%20Graph" width="100%" alt="Contribution graph" />
 
 </div>
+
+---
 
 ## About
 
