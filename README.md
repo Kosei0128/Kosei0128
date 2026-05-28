@@ -10,21 +10,21 @@
 </p>
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=24&duration=3600&pause=900&color=67E8F9&width=900&height=45&lines=%E8%AA%B0%E3%81%8B%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E5%B0%91%E3%81%97%E5%89%8D%E3%81%B8%E9%80%B2%E3%82%81%E3%82%8B%E3%82%82%E3%81%AE%E3%81%A5%E3%81%8F%E3%82%8A%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%B8%E3%80%82" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=700&size=26&duration=3300&pause=1100&color=67E8F9&width=760&height=48&lines=%E5%B0%8F%E3%81%95%E3%81%AA%E4%BE%BF%E5%88%A9%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%B8%E5%B1%8A%E3%81%91%E3%82%8B%E3%80%82" alt="Typing SVG" />
 </p>
 
 <img src="https://raw.githubusercontent.com/Kosvel-dev/Kosvel-dev/main/assets/kosvel-card.svg" alt="Kosvel profile card" width="100%" />
 
-## Works
+## Featured Works
 
-| Project | Description | Stack |
+| Project | What it does | Stack |
 | --- | --- | --- |
-| [LP Howmatch](https://github.com/Kosvel-dev/lp-howmatch) | Web production estimate simulator for landing pages and small websites. | Next.js / TypeScript |
-| [Rapper Tool](https://github.com/Kosvel-dev/rapper-tool) | Japanese rap lyric writing studio with rhyme search and AI-assisted generation. | Next.js / TypeScript / AI API |
-| Kosvel Studio | Personal portfolio site for projects, client work, and development notes. | Next.js / TypeScript |
-| Client Work | Websites created for individuals and small businesses. Source code is kept private for client projects. | Web production |
+| [LP Howmatch](https://github.com/Kosvel-dev/lp-howmatch) | Estimate simulator for landing page and website production. | Next.js / TypeScript |
+| [Rapper Tool](https://github.com/Kosvel-dev/rapper-tool) | Japanese rap lyric studio with rhyme search and AI-assisted generation. | Next.js / TypeScript / AI API |
+| Kosvel Studio | Portfolio site for projects, client work, and development notes. | Next.js / TypeScript |
+| Client Work | Websites for individuals and small businesses. Source code is kept private for client projects. | Web production |
 
-## Tech Stack
+## Stack
 
 ```text
 Frontend: Next.js, React, TypeScript, Tailwind CSS
@@ -35,5 +35,4 @@ Focus: Web apps, LPs, automation, prototypes
 
 ## About
 
-I build practical web products with a focus on clear UI, useful workflows, and fast iteration.  
-Currently refining my portfolio as Kosvel.
+I build practical web products with a focus on clear UI, useful workflows, and fast iteration.
