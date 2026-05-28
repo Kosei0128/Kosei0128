@@ -5,6 +5,7 @@
 <br/>
 
 <p align="center">
+  <img src="https://placehold.co/44x1/ffffff/ffffff.png" width="44" height="1" alt="" />
   <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=700&size=25&duration=2800&pause=900&color=67E8F9&vCenter=true&width=520&height=48&lines=Hi%20there%2C%20I'm%20Kosvel%F0%9F%91%8B;%E5%B0%8F%E3%81%95%E3%81%AA%E4%BE%BF%E5%88%A9%E3%82%92%E3%80%81%E4%B8%96%E7%95%8C%E3%81%AB%E5%B1%8A%E3%81%91%E3%82%8B%E3%80%82;Ideas%20%2B%20Code%20%3D%20%E2%9D%A4%EF%B8%8F" alt="Typing SVG" />
   &nbsp;&nbsp;
   <a href="https://github.com/Kosvel-dev?tab=followers"><img src="https://img.shields.io/github/followers/Kosvel-dev?style=for-the-badge&logo=github&color=0D1117&labelColor=161B22" alt="GitHub followers" /></a>
