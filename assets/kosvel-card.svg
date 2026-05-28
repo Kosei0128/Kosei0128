@@ -1,102 +1,104 @@
 <svg width="1000" height="420" viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#030406"/>
-      <stop offset="0.45" stop-color="#07080b"/>
-      <stop offset="1" stop-color="#020304"/>
+      <stop offset="0" stop-color="#020407"/>
+      <stop offset="0.5" stop-color="#060811"/>
+      <stop offset="1" stop-color="#020306"/>
     </linearGradient>
-    <linearGradient id="nameGradient" x1="0" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#43f0c2"/>
-      <stop offset="0.24" stop-color="#44a7ff"/>
-      <stop offset="0.5" stop-color="#b16cff"/>
-      <stop offset="0.75" stop-color="#ff6aa7"/>
-      <stop offset="1" stop-color="#f3d66a"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-170 0;190 0;-170 0" dur="9s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="orbit" x1="520" y1="80" x2="905" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32f5c8" stop-opacity="0.08"/>
-      <stop offset="0.32" stop-color="#38a9ff" stop-opacity="0.42"/>
-      <stop offset="0.62" stop-color="#b169ff" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#ff5d9e" stop-opacity="0.1"/>
-      <animateTransform attributeName="gradientTransform" type="rotate" values="0 710 210;360 710 210" dur="22s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="thread" x1="490" y1="280" x2="920" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff5c9f" stop-opacity="0.05"/>
-      <stop offset="0.35" stop-color="#6e6cff" stop-opacity="0.36"/>
-      <stop offset="0.68" stop-color="#3ce6c0" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#f7d76a" stop-opacity="0.07"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-60 0;70 0;-60 0" dur="12s" repeatCount="indefinite"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(730 215) rotate(90) scale(190 290)">
-      <stop offset="0" stop-color="#63f0d1" stop-opacity="0.12"/>
-      <stop offset="0.34" stop-color="#6b68ff" stop-opacity="0.06"/>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(775 190) rotate(90) scale(250 360)">
+      <stop offset="0" stop-color="#22f2c8" stop-opacity="0.20"/>
+      <stop offset="0.38" stop-color="#5c7cff" stop-opacity="0.10"/>
       <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <filter id="cardShadow" x="0" y="0" width="1000" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.55"/>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 285) rotate(90) scale(180 280)">
+      <stop offset="0" stop-color="#ff4ea3" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="40" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5cf2d6"/>
+      <stop offset="0.24" stop-color="#5ab0ff"/>
+      <stop offset="0.52" stop-color="#9c6dff"/>
+      <stop offset="0.78" stop-color="#ff67a8"/>
+      <stop offset="1" stop-color="#f8d76a"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;170 0;-180 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="485" y1="305" x2="930" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff4ea3" stop-opacity="0.12"/>
+      <stop offset="0.28" stop-color="#8970ff" stop-opacity="0.46"/>
+      <stop offset="0.58" stop-color="#42b5ff" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#56f2ca" stop-opacity="0.14"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-80 0;80 0;-80 0" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="kstroke" x1="600" y1="80" x2="890" y2="335" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#62ffe0" stop-opacity="0.86"/>
+      <stop offset="0.45" stop-color="#5b81ff" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#ff4ea3" stop-opacity="0.72"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 750 210;360 750 210" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1000" height="420" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.65"/>
     </filter>
-    <filter id="blurWide" x="400" y="-60" width="600" height="540" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="blur" x="410" y="-80" width="590" height="560" filterUnits="userSpaceOnUse">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
-    <filter id="blurSoft" x="420" y="-50" width="560" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="5"/>
+    <filter id="soft" x="470" y="-50" width="500" height="520" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#ffffff" stroke-opacity="0.03"/>
     </pattern>
   </defs>
 
-  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#bg)" stroke="#2c3037" stroke-width="3" filter="url(#cardShadow)"/>
-  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#bg)"/>
-  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#grid)" opacity="0.55"/>
-  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#aura)"/>
+  <rect x="10" y="10" width="980" height="400" rx="34" fill="url(#bg)" stroke="#242a35" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="11" y="11" width="978" height="398" rx="33" fill="url(#bg)"/>
+  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#grid)" opacity="0.7"/>
+  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#glowA)"/>
+  <rect x="12" y="12" width="976" height="396" rx="32" fill="url(#glowB)"/>
 
-  <path d="M52 365H390" stroke="#ffffff" stroke-opacity="0.055"/>
-  <path d="M64 58H202" stroke="#67f2d5" stroke-opacity="0.22"/>
+  <path d="M70 62H230" stroke="#6fffe0" stroke-opacity="0.18"/>
+  <text x="70" y="115" fill="url(#name)" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="800">Kosvel</text>
+  <text x="74" y="156" fill="#b4c0d4" font-family="Segoe UI, Arial, sans-serif" font-size="23">Web Developer / Indie Builder</text>
+  <text x="74" y="210" fill="#dce6f7" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="650">Small tools, real value.</text>
+  <text x="74" y="244" fill="#8f9bad" font-family="Segoe UI, Arial, sans-serif" font-size="18">I design and build practical web products, LPs, and automation workflows.</text>
 
-  <text x="64" y="103" fill="url(#nameGradient)" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="760">Kosvel</text>
-  <text x="67" y="143" fill="#9ca0ab" font-family="Segoe UI, Arial, sans-serif" font-size="22">Web Developer / Indie Developer</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#c7d2e5">
+    <rect x="74" y="286" width="85" height="34" rx="17" fill="#0c1018" stroke="#263141"/>
+    <text x="96" y="308">Next.js</text>
+    <rect x="169" y="286" width="108" height="34" rx="17" fill="#0c1018" stroke="#263141"/>
+    <text x="191" y="308">TypeScript</text>
+    <rect x="287" y="286" width="78" height="34" rx="17" fill="#0c1018" stroke="#263141"/>
+    <text x="310" y="308">Python</text>
+    <rect x="375" y="286" width="78" height="34" rx="17" fill="#0c1018" stroke="#263141"/>
+    <text x="397" y="308">AI APIs</text>
+  </g>
 
-  <text x="67" y="204" fill="#d5d7de" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" opacity="0.86">Build</text>
-  <text x="67" y="236" fill="#8f939f" font-family="Segoe UI, Arial, sans-serif" font-size="18">Web apps, landing pages, automation tools</text>
+  <rect x="74" y="346" width="240" height="34" rx="8" fill="#0b0f17" stroke="#273244"/>
+  <circle cx="96" cy="363" r="5" fill="#5cf2d6">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="112" y="368" fill="#aebbd0" font-family="Segoe UI, Arial, sans-serif" font-size="15">Portfolio under construction</text>
 
-  <text x="67" y="284" fill="#d5d7de" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" opacity="0.86">Stack</text>
-  <text x="67" y="316" fill="#8f939f" font-family="Segoe UI, Arial, sans-serif" font-size="18">Next.js / TypeScript / Python / AI APIs</text>
-
-  <rect x="68" y="342" width="214" height="36" rx="8" fill="#0d0f13" stroke="#282d37" opacity="0.94"/>
-  <text x="86" y="365" fill="#afb4c0" font-family="Segoe UI, Arial, sans-serif" font-size="15">Portfolio in progress</text>
-  <path d="M244 360 C252 351 260 351 268 360 C260 369 252 369 244 360Z" fill="#54e8bd" opacity="0.9"/>
-
-  <g filter="url(#blurWide)" opacity="0.9">
-    <ellipse cx="710" cy="210" rx="198" ry="86" stroke="url(#orbit)" stroke-width="34" transform="rotate(-18 710 210)">
-      <animate attributeName="opacity" values="0.28;0.62;0.38;0.56;0.28" dur="10s" repeatCount="indefinite"/>
-    </ellipse>
-    <path d="M500 266 C590 150 702 344 914 112" stroke="url(#thread)" stroke-width="30" stroke-linecap="round" opacity="0.58">
-      <animate attributeName="opacity" values="0.28;0.55;0.34;0.48;0.28" dur="11s" repeatCount="indefinite"/>
+  <g filter="url(#blur)" opacity="0.9">
+    <path d="M552 292 C632 166 735 336 916 108" stroke="url(#signal)" stroke-width="36" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.24;0.58;0.32;0.5;0.24" dur="9s" repeatCount="indefinite"/>
     </path>
+    <path d="M640 86 V326" stroke="url(#kstroke)" stroke-width="30" stroke-linecap="round" opacity="0.62"/>
+    <path d="M640 220 L858 86" stroke="url(#kstroke)" stroke-width="30" stroke-linecap="round" opacity="0.52"/>
+    <path d="M640 220 L878 324" stroke="url(#kstroke)" stroke-width="30" stroke-linecap="round" opacity="0.5"/>
   </g>
 
-  <g filter="url(#blurSoft)" opacity="0.82">
-    <ellipse cx="710" cy="210" rx="196" ry="84" stroke="url(#orbit)" stroke-width="8" transform="rotate(-18 710 210)">
-      <animate attributeName="opacity" values="0.36;0.72;0.44;0.66;0.36" dur="8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="710" cy="210" rx="128" ry="58" stroke="#ffffff" stroke-opacity="0.035" stroke-width="2" transform="rotate(22 710 210)"/>
-    <path d="M502 266 C590 150 702 344 914 112" stroke="url(#thread)" stroke-width="7" stroke-linecap="round">
-      <animate attributeName="opacity" values="0.44;0.82;0.52;0.72;0.44" dur="9s" repeatCount="indefinite"/>
+  <g filter="url(#soft)">
+    <path d="M548 292 C632 166 735 336 916 108" stroke="url(#signal)" stroke-width="7" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.38;0.82;0.46;0.72;0.38" dur="8s" repeatCount="indefinite"/>
     </path>
+    <path d="M640 86 V326" stroke="url(#kstroke)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M640 220 L858 86" stroke="url(#kstroke)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M640 220 L878 324" stroke="url(#kstroke)" stroke-width="8" stroke-linecap="round"/>
   </g>
 
-  <g opacity="0.9">
-    <circle cx="644" cy="166" r="4" fill="#46f0c8">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="759" cy="249" r="5" fill="#7f77ff">
-      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="830" cy="145" r="3" fill="#ff70ad">
-      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="6s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <circle cx="760" cy="126" r="4" fill="#5cf2d6"><animate attributeName="opacity" values="0.25;1;0.25" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="838" cy="260" r="5" fill="#8b7aff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="902" cy="163" r="3" fill="#ff67a8"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="6s" repeatCount="indefinite"/></circle>
 
   <rect x="12" y="12" width="976" height="396" rx="32" stroke="#ffffff" stroke-opacity="0.045"/>
 </svg>
